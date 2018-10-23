@@ -47,6 +47,10 @@ Usage of Cricapi:
 >>> criapi.matchCalender()
 {u'v': u'1', u'cache': True, u'provider': {u'url': u'https://criapi.com/', u'source': ...}
 ```
+
+The endpoints cricketScore() and playerStats() require a string input field "unique_id" and "pid"(player_id). "unique_id" for each match is available from the cricket() endpoint response. and for "pid"(player_id) need to visit [cricapi players page](http://www.cricapi.com/players/). usage is as follows:
+
+
 #### cricketScore
 
 ```
@@ -61,6 +65,11 @@ Usage of Cricapi:
 >>> criapi.playerStats(params)
 {u'profile': u"\n\nSachin Tendulkar has been the most complete batsman of his time, the most prolific runmaker of all time, and arguably the biggest cricket icon the game has ...}
 ```
+
+#### Fantasy API are billable since they're designed to help you generate income by running Fantasy Cricket portals. ####
+Each hit is 1 credit. You get 250 credits free. Deducted from your prepaid account.
+
+
 #### fantasySquad
 
 ```
@@ -96,12 +105,6 @@ course):
 ``` {.sourceCode .bash}
 $ pipenv install cricapi
 ```
-
-Documentation
--------------
-
-Fantastic documentation is available at
-<http://docs.python-cricapi.org/>.
 
 How to Contribute
 -----------------
