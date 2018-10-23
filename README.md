@@ -93,16 +93,13 @@ course):
 
 ``` {.sourceCode .bash}
 $ pipenv install cricapi
-✨🍰✨
 ```
-
-Satisfaction guaranteed.
 
 Documentation
 -------------
 
 Fantastic documentation is available at
-<http://docs.python-cricapi.org/>, for a limited time only.
+<http://docs.python-cricapi.org/>.
 
 How to Contribute
 -----------------
