@@ -24,53 +24,55 @@ The [cricapi](http://www.cricapi.com/), Free to use, super-high bandwidth, high 
 Usage of Cricapi:
 
 ``` {.sourceCode .python}
+
+>>> import cricapi
 >>> apikey = "TESTKEY0273"
->>> cricapi = Cricapi(apikey)
+>>> criapi = cricapi.Cricapi(apikey)
 ```
 #### matches
 
 ```
->>> cricapi.matches()
+>>> criapi.matches()
 {u'matches': [{u'toss_winner_team': u'Australia Women', u'team-2': u'Pakistan Women' ...}
 ```
 #### cricket
 
 ```
->>> cricapi.cricket()
+>>> criapi.cricket()
 {u'v': u'1', u'cache': True, u'provider': {u'url': u'https://cricapi.com/', u'source': ...}
 ```
 #### matchCalender
 
 ```
->>> cricapi.matchCalender()
-{u'v': u'1', u'cache': True, u'provider': {u'url': u'https://cricapi.com/', u'source': ...}
+>>> criapi.matchCalender()
+{u'v': u'1', u'cache': True, u'provider': {u'url': u'https://criapi.com/', u'source': ...}
 ```
 #### cricketScore
 
 ```
 >>> params = {'unique_id':1034809}
->>> cricapi.cricketScore(params)
+>>> criapi.cricketScore(params)
 {u'v': u'1', u'ttl': 3, u'team-2': u'India', u'matchStarted': True, u'team-1': u'England', u'provider': {u'url':u'https://cricapi.com/', u'source': u'Various', u'pubDate': u'2018-10-23T06:58:07.090Z'}, u'creditsLeft': 206}
 ```
 #### playerStats
 
 ```
 >>> params = {'pid':35320}
->>> cricapi.playerStats(params)
+>>> criapi.playerStats(params)
 {u'profile': u"\n\nSachin Tendulkar has been the most complete batsman of his time, the most prolific runmaker of all time, and arguably the biggest cricket icon the game has ...}
 ```
 #### fantasySquad
 
 ```
 >>> params = {'unique_id':1034809}
->>> cricapi.fantasySquad(params)
+>>> criapi.fantasySquad(params)
 {u'v': u'1', u'cache': True, u'provider': {u'url': u'https://cricapi.com/', u'source': u'Various', u'pubDate': u'2018-10-23T07:16:02.191Z'}, u'squad': [{u'players': [{u'pid': ... }
 ```
 #### fantasySummary
 
 ```
 >>> params = {'unique_id':1034809}
->>> cricapi.fantasySummary(params)
+>>> criapi.fantasySummary(params)
 {u'type': u'Test', u'ttl': 7, u'provider': {u'url': u'https://cricapi.com/', u'source': u'Various', u'pubDate': u'2018-10-23T07:20:22.701Z'}, u'dateTimeGMT': u'2016-11-09T04:00:00.000Z', u'v': u'1', u'data': {u'toss_winner_tea ...}
 ```
 
@@ -78,7 +80,7 @@ Usage of Cricapi:
 
 ```
 >>> params = {'name':'sachin'}
->>> cricapi.playerFinder(params)
+>>> criapi.playerFinder(params)
 {u'ttl': 164, u'provider': {u'url': u'https://cricapi.com/', u'source': u'Various', u'pubDate': u'2018-10-23T07:24:47.164Z'}, u'v': u'1', u'data': [{u'fullName': u'Sachin Rana', u'pid': 33757, u'name': u'Sachin Rana'}, {u'full ...}
 ```
 
