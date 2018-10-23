@@ -1,7 +1,5 @@
 # cricapi
-This is a wrapper for cricapi written using python
-
-Cricapi: This is a wrapper for cricapi written using python™
+This is a wrapper for cricapi written using python™
 
 ==========================
 
