@@ -3,8 +3,8 @@
 [![image](https://img.shields.io/pypi/v/cricapi.svg)](https://pypi.org/project/cricapi/)
 [![image](https://img.shields.io/pypi/l/cricapi.svg)](https://pypi.org/project/cricapi/)
 [![image](https://img.shields.io/pypi/pyversions/cricapi.svg)](https://pypi.org/project/cricapi/)
-[![codecov.io](https://codecov.io/github/karthikgangadhar/cricapi/coverage.svg?branch=master)](https://codecov.io/github/karthikgangadhar/cricapi)
-[![image](https://img.shields.io/github/contributors/karthikgangadhar/cricapi.svg)](https://github.com/karthikgangadhar/cricapi/graphs/contributors)
+[![codecov.io](https://codecov.io/github/karthikgangadhar/pycricapi/coverage.svg?branch=master)](https://codecov.io/github/karthikgangadhar/pycricapi)
+[![image](https://img.shields.io/github/contributors/karthikgangadhar/pycricapi.svg)](https://github.com/karthikgangadhar/pycricapi/graphs/contributors)
 <!-- [![image](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/kennethreitz) -->
 
 The [cricapi](http://www.cricapi.com/), Free to use, super-high bandwidth, high performance Cricket API. Targeted at Developers and Cricket lovers.<br>
@@ -109,14 +109,14 @@ How to Contribute
 
 1.  Check for open issues or open a fresh issue to start a discussion
     around a feature idea or a bug. There is a [Contributor
-    Friendly](https://github.com/karthikgangadhar/cricapi/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open)
+    Friendly](https://github.com/karthikgangadhar/pycricapi/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open)
     tag for issues that should be ideal for people who are not very
     familiar with the codebase yet.
-2.  Fork [the repository](https://github.com/karthikgangadhar/cricapi) on
+2.  Fork [the repository](https://github.com/karthikgangadhar/pycricapi) on
     GitHub to start making your changes to the **master** branch (or
     branch off of it).
 3.  Write a test which shows that the bug was fixed or that the feature
     works as expected.
 4.  Send a pull request and bug the maintainer until it gets merged and
     published. :) Make sure to add yourself to
-    [AUTHORS](https://github.com/karthikgangadhar/cricapi/blob/master/AUTHORS.rst).
+    [AUTHORS](https://github.com/karthikgangadhar/pycricapi/blob/master/AUTHORS.rst).
