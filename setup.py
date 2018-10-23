@@ -1,3 +1,9 @@
+import os
+import re
+import sys
+
+from codecs import open
+
 from setuptools import setup
 from distutils.core import setup
 
@@ -6,11 +12,17 @@ packages = ['cricapi']
 requires = [
     'requests',
 ]
+
+with open('README.md', 'r', 'utf-8') as f:
+    readme = f.read()
+
 setup(
   name = 'cricapi',
   packages = ['cricapi'], # this must be the same as the name above
-  version = '1.0',
+  version = '1.1',
   description = 'The cricapi, Free to use, super-high bandwidth, high performance Cricket API. Targeted at Developers and Cricket lovers.',
+  long_description=readme,
+  long_description_content_type='text/markdown',
   author = 'kgangadhar',
   author_email = 'karthikg1643@gmail.com',
   url = 'https://github.com/KarthikGangadhar/pycricapi',
