@@ -2,6 +2,7 @@
 This is a wrapper for cricapi written using python
 
 Cricapi: This is a wrapper for cricapi written using python™
+
 ==========================
 
 [![image](https://img.shields.io/pypi/v/cricapi.svg)](https://pypi.org/project/cricapi/)
