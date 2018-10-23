@@ -1,7 +1,4 @@
 # cricapi
-This is a wrapper for cricapi written using python™
-
-==========================
 
 [![image](https://img.shields.io/pypi/v/cricapi.svg)](https://pypi.org/project/cricapi/)
 [![image](https://img.shields.io/pypi/l/cricapi.svg)](https://pypi.org/project/cricapi/)
