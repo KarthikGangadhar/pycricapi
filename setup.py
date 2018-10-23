@@ -1,3 +1,4 @@
+from setuptools import setup
 from distutils.core import setup
 
 packages = ['cricapi']
@@ -6,8 +7,8 @@ requires = [
     'requests',
 ]
 setup(
-  name = 'crciapi',
-  packages = ['crciapi'], # this must be the same as the name above
+  name = 'cricapi',
+  packages = ['cricapi'], # this must be the same as the name above
   version = '1.0',
   description = 'The cricapi, Free to use, super-high bandwidth, high performance Cricket API. Targeted at Developers and Cricket lovers.',
   author = 'kgangadhar',
