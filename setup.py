@@ -20,6 +20,9 @@ setup(
   name = 'cricapi',
   packages = ['cricapi'], # this must be the same as the name above
   version = '1.2',
+  install_requires=[
+          'requests'
+      ],
   description = 'The cricapi, Free to use, super-high bandwidth, high performance Cricket API. Targeted at Developers and Cricket lovers.',
   long_description=readme,
   long_description_content_type='text/markdown',
