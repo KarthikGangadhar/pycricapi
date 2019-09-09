@@ -19,7 +19,7 @@ with open('README.md', 'r', 'utf-8') as f:
 setup(
   name = 'cricapi',
   packages = ['cricapi'], # this must be the same as the name above
-  version = '1.2',
+  version = '1.3',
   install_requires=[
           'requests'
       ],
